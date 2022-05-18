@@ -1,0 +1,17 @@
+{
+	"site": {
+		"header": "Hej verden!",
+		"body": "Lorem ipsum...",
+		"navigation": {
+			"home": "Hjem",
+			"about": "Om os",
+			"store": "Køb vores ting"
+		},
+		"product-list": {
+			"header": "All our products"
+		},
+		"product-page": {
+			"header": "About {{productName}}"
+		}
+	}
+}

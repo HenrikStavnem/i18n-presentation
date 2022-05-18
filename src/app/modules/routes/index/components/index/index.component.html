@@ -1,0 +1,147 @@
+<div class="slide">
+	<div class="slide-wrapper">
+
+		<div class="slide-item slide-0">
+			<div class="col col-100">
+				<div style="display: flex; align-items: baseline;">
+					<svg height="250" width="250" class="triangle">
+						<polygon points="250,250 0,0 250,0" style="fill:#f23a1d;" />
+					</svg>
+					<h1>{{"slides.slide0.header" | translate }}</h1>
+				</div>
+				<p class="subheader">{{"slides.slide0.subheader" | translate }}</p>
+			</div>
+		</div>
+		
+		<div class="slide-item slide-1">
+			<div class="col col-50">
+				<h2>{{"slides.slide1.what-is-i18n.header" | translate }}</h2>
+				<ul>
+					<li [innerHTML]="'slides.slide1.what-is-i18n.bullet1' | translate"></li>
+					<li [innerHTML]="'slides.slide1.what-is-i18n.bullet2' | translate"></li>
+				</ul>
+			</div>
+			<div class="col col-50">
+				<h2>{{"slides.slide1.what-is-l10n.header" | translate }}</h2>
+				<ul>
+					
+					<li [innerHTML]="'slides.slide1.what-is-l10n.bullet1' | translate"></li>
+					<li [innerHTML]="'slides.slide1.what-is-l10n.bullet2' | translate"></li>
+					<li [innerHTML]="'slides.slide1.what-is-l10n.bullet3' | translate"></li>
+					<li [innerHTML]="'slides.slide1.what-is-l10n.bullet4' | translate"></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="slide-item slide-2">
+			<div class="col col-50">
+				<h2>{{"slides.slide2.without-i18n.header" | translate }}</h2>
+
+				<p>{{"slides.slide2.without-i18n.example" | translate }}</p>
+				<img src="../../../../../../assets/images/1.png" alt="Headline without i18n" />
+
+				<ul>
+					<li>{{"slides.slide2.without-i18n.bullet1" | translate }}</li>
+				</ul>
+			</div>
+
+			<div class="col col-50">
+				<h2>{{"slides.slide2.with-i18n.header" | translate }}</h2>
+
+				<p>{{"slides.slide2.with-i18n.example1" | translate }}</p>
+				<img src="../../../../../../assets/images/2.png" alt="Headline with i18n" />
+				
+				<p>{{"slides.slide2.with-i18n.example2" | translate }}</p>
+				<img src="../../../../../../assets/images/3.png" alt="Headline with i18n" />
+
+				<ul>
+					<li>{{"slides.slide2.with-i18n.bullet1" | translate }}</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="slide-item slide-3">
+			<div class="col col-50">
+				<!-- <h2>{{"slides.slide3.with-i18n.header" | translate }}</h2> -->
+				<h2>{{"slides.slide3.header" | translate }}</h2>
+				<p>{{"slides.slide3.english" | translate }}</p>
+				<img src="../../../../../../assets/images/4.png" alt="Example of l10n json file" />
+			</div>
+
+			<div class="col col-50">
+				<!-- <h2>{{"slides.slide3.with-i18n.header" | translate }}</h2> -->
+				<div class="h2-height"></div>
+				<p>{{"slides.slide3.danish" | translate }}</p>
+				<img src="../../../../../../assets/images/5.png" alt="Example of l10n json file" />
+			</div>
+		</div>
+
+		<div class="slide-item slide-4">
+			<div class="col col-25"></div>
+			<div class="col col-50">
+				<h2>{{"slides.slide4.header" | translate }}</h2>
+				<p>{{"slides.slide4.body" | translate }}</p>
+				<p>{{"slides.slide4.i18n-code" | translate }}:</p>
+				<img src="../../../../../../assets/images/6.png" alt='{{"slides.slide4.i18n-code" | translate }}' />
+				<p>{{"slides.slide4.l10n-code" | translate }}:</p>
+				<img src="../../../../../../assets/images/7.png" alt='{{"slides.slide4.l10n-code" | translate }}' />
+			</div>
+			<div class="col col-25"></div>
+		</div>
+
+		<div class="slide-item slide-5">
+			<div class="col col-50">
+				<h2>{{"slides.slide5.header" | translate }}</h2>
+				<p>{{"slides.slide5.part1" | translate }}</p>
+				<img src="../../../../../../assets/images/8.png" alt='{{"slides.slide3.i18n-code" | translate }}' />
+			</div>
+			<div class="col col-50">
+				<div class="h2-height"></div>
+				<p>{{"slides.slide5.part2" | translate }}</p>
+				<img src="../../../../../../assets/images/9.png" alt='{{"slides.slide3.i18n-code" | translate }}' />
+			</div>
+		</div>
+
+		<div class="slide-item slide-6">
+			<div class="col col-25"></div>
+			<div class="col col-50">
+				<h2>{{"slides.slide6.header" | translate }}</h2>
+				<p>{{"slides.slide6.body" | translate }}</p>
+				<img src="../../../../../../assets/images/10.png" alt='{{"slides.slide6.img-alt" | translate }}' />
+			</div>
+			<div class="col col-25"></div>
+		</div>
+
+		<div class="slide-item slide-7">
+			<div class="col col-25"></div>
+			<div class="col col-50">
+				<h2>{{"slides.slide7.header" | translate }}</h2>
+				<p>{{"slides.slide7.body" | translate }}</p>
+				<ul>
+					<li class="arabic">لمّا كان الاعتراف</li>
+					<li class="japanese">人類社会のすべ</li>
+					<li class="korean">모든 인류</li>
+					<li class="sindarin">6lr`]</li>
+					<li>...</li>
+				</ul>
+			</div>
+			<div class="col col-25"></div>
+		</div>
+
+		<div class="slide-item slide-8">
+			<div class="col col-100">
+				<h2>{{"slides.slide8.header" | translate}}</h2>
+				<button (click)="onToggleLanguageClick()">{{"slides.slide8.button-" + selectedLanguage | translate}}</button>
+			</div>
+		</div>
+		
+	</div>
+	<nav>
+		<button (click)="onPreviousClick()">{{"navigation.previous" | translate }}</button>
+		<div class="slide-indicator">
+			<span id="current-slide">{{currentSlide}}</span> / 
+			<span id="total-slides">{{totalSlides}}</span>
+		</div>
+		<button (click)="onNextClick()">{{"navigation.next" | translate}}</button>
+	</nav>
+</div>

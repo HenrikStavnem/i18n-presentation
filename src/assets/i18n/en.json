@@ -1,0 +1,72 @@
+{
+	"navigation": {
+		"next": "Next",
+		"previous": "Previous",
+		"title": "WebStack: i18n and l10n"
+	},
+	"slides": {
+		"slide0": {
+			"header": "Webstack Knowledge Share",
+			"subheader": "i18n and l10n"
+		},
+		"slide1": {
+			"header": "i18n and l10n",
+			"what-is-i18n": {
+				"body": "Internationalization.<br />The preparation for l10n",
+				"bullet1": "It is an abbreviation of <i>internationalization</i>",
+				"bullet2": "The process of designing software so that it may be adapted into other languages",
+				"header": "What is i18n?"
+			},
+			"what-is-l10n": {
+				"bullet1": "It is an abbreviation of <i>localization</i>",
+				"bullet2": "The process of adapting i18n prepared software into multiple languages",
+				"bullet3": "This is the actual translation",
+				"bullet4": "Translations are typically stored in json or xml files",
+				"header": "What is l10n?"
+			}
+		},
+		"slide2": {
+			"with-i18n": {
+				"bullet1": "Ready for tranlation",
+				"example1": "The example below uses Angular with ngx-translate",
+				"example2": "This one uses React with i18next",
+				"header": "With i18n"
+			},
+			"without-i18n": {
+				"bullet1": "Not ready for tranlation (l10n)",
+				"example": "The example below uses no i18n",
+				"header": "Without i18n"
+			}
+		},
+		"slide3": {
+			"danish": "The Danish version",
+			"english": "The English version",
+			"header": "l10n json file example"
+		},
+		"slide4": {
+			"body": "Sometimes it can be useful to pass a parameter or two to the translation",
+			"header": "Parameters",
+			"i18n-code": "i18n code (Angular)",
+			"l10n-code": "l10n code"
+		},
+		"slide5": {
+			"header": "Maintaining translation files",
+			"part1": "It can be cumbersome to manually maintain translation files during development...",
+			"part2": "... and mistakes can be made!"
+		},
+		"slide6": {
+			"body": "Tools like BabelEdit can be very useful to maintain translation files",
+			"header": "... but there are tools for that!",
+			"img-alt": "BabelEdit"
+		},
+		"slide7": {
+			"body": "Keep in mind that not all languages use the Latin alphabet or are written left to right",
+			"header": "Other writing systems"
+		},
+		"slide8": {
+			"button-dk": "Click to change language to English",
+			"button-en": "Click to change language to Danish",
+			"header": ""
+		}
+	}
+}

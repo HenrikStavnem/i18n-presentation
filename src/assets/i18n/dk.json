@@ -1,0 +1,72 @@
+{
+	"navigation": {
+		"next": "Næste",
+		"previous": "Forrige",
+		"title": "WebStack: i18n og l10n"
+	},
+	"slides": {
+		"slide0": {
+			"header": "Webstack Vidensdeling",
+			"subheader": "i18n og l10n"
+		},
+		"slide1": {
+			"header": "i18n og l10n",
+			"what-is-i18n": {
+				"body": "Internationalization.<br />Forberedelserne til l10n",
+				"bullet1": "Det er en forkortelse af <i>internationalization</i>",
+				"bullet2": "Processen i at designe software så det kan tilpasses til andre sprog",
+				"header": "Hvad er i18n?"
+			},
+			"what-is-l10n": {
+				"bullet1": "Det er en forkortelse af <i>localization</i>",
+				"bullet2": "Processen i at tilpasse i18n-klargjort software til flere sprog",
+				"bullet3": "Dette er den faktiske oversættelse",
+				"bullet4": "Oversættelserne er typisk opbevaret i json- eller xml-filer",
+				"header": "Hvad er l10n?"
+			}
+		},
+		"slide2": {
+			"with-i18n": {
+				"bullet1": "Klar til oversættelse",
+				"example1": "Nedenstående eksempel bruger Angular med ngx-translate",
+				"example2": "Den her bruger React med i18next",
+				"header": "Med i18n"
+			},
+			"without-i18n": {
+				"bullet1": "Ikke klar til oversættelse (l10n)",
+				"example": "Eksemplet nedenunder bruger ikke i18n",
+				"header": "Uden i18n"
+			}
+		},
+		"slide3": {
+			"danish": "Den danske version",
+			"english": "Den engelske version",
+			"header": "l10n json fil eksempel"
+		},
+		"slide4": {
+			"body": "",
+			"header": "Parametre",
+			"i18n-code": "i18n kode (Angular)",
+			"l10n-code": "l10n kode"
+		},
+		"slide5": {
+			"header": "Vedligeholdelse af oversættelsesfiler",
+			"part1": "Det kan være besværligt at manuelt vedligeholde oversættelsesfiler under udviklingen...",
+			"part2": "... og fejl kan opstå!"
+		},
+		"slide6": {
+			"body": "Værktøj som BabelEdit kan være meget nyttigt til vedligeholdelse af oversættelsesfiler ",
+			"header": "... men det er der værktøj til!",
+			"img-alt": "BabelEdit"
+		},
+		"slide7": {
+			"body": "Husk at ikke alle sprog bruger det latinske alfabet eller går fra venstre mod højre",
+			"header": "Andre skrivesystemer"
+		},
+		"slide8": {
+			"button-dk": "Klik for at skifte sprog til Engelsk",
+			"button-en": "Klik for at skifte sprog til Dansk",
+			"header": ""
+		}
+	}
+}

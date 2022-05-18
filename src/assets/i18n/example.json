@@ -1,0 +1,15 @@
+{
+	"site": {
+		"header": "Hello world!",
+		"body": "Lorem ipsum...",
+		"navigation": {
+			"home": "Home",
+			"about": "About",
+			"store": "Buy our stuff"
+		},
+		"product-list": {
+			"header": "All our products",
+			"body": "Lorem ipsum dolor..."
+		}
+	}
+}

@@ -1,0 +1,17 @@
+:host {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+  }
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	font-family: font1;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}

@@ -1,0 +1,167 @@
+.slide {
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	//height: 800px;
+	flex-grow: 1;
+
+	nav {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		justify-content: space-between;
+		background-color: black;
+
+		button {
+			font-family: font1;
+			font-size: 1rem;
+			line-height: 1rem;
+			padding: 10px 20px;
+		}
+
+		.slide-indicator {
+			font-family: font1;
+			font-size: 1.5rem;
+			line-height: 1.5rem;
+		}
+	}
+}
+
+.slide-wrapper {
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.5s ease-in-out;
+}
+
+.slide-item {
+	display: flex;
+	min-width: 100%;
+	height: 100%;
+	background-color: blue;
+	flex-grow: 1;
+	flex-direction: row;
+	font-family: font1;
+	flex-grow: 1;
+
+	&.slide-0, &.slide-8 {
+		background-color: #05051e;
+	}
+
+	&.slide-1 {
+		background-color: rgb(39, 130, 203);
+	}
+	&.slide-2 {
+		background-color: #28815d;
+	}
+	&.slide-3 {
+		background-color: #6c5d3c;
+	}
+	&.slide-4 {
+		background-color: #28815d;
+	}
+	&.slide-5 {
+		background-color: #f23a1d;
+	}
+	&.slide-6 {
+		background-color: #402975;
+	}
+	&.slide-7 {
+		background-color: #58cc02;
+	}
+
+	.col {
+		padding: 40px 40px 40px 40px;
+
+		img {
+			max-width: 100%;
+		}
+	}
+
+	.col-100 {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		width: 100vw;
+	}
+
+	.col-25 {
+		width: 25vw;
+	}
+
+	.col-50 {
+		width: 50vw;
+
+		&:nth-child(1) {
+			padding: 60px 20px 40px 40px;
+		}
+
+		&:nth-child(2) {
+			padding: 60px 40px 40px 20px;
+		}
+	}
+
+	.h2-height {
+		height: 3rem;
+		width: 1rem;
+		margin-block-start: 1rem;
+		margin-block-end: 0;
+	}
+
+	svg.triangle {
+		width: 1.5rem;
+		height: 1.5rem;
+		margin-right: 0.25rem;
+	}
+
+	h1 {
+		font-size: 4rem;
+		margin-block-start: 0;
+		margin-block-end: 0rem;
+		line-height: 4rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+		margin-block-start: 0;
+		margin-block-end: 0;
+	}
+
+	p, li, span {
+		font-size: 1.5rem;
+		margin-block-end: 1rem;
+
+		&.arabic, &.japanese, &.korean, &.sindarin {
+			font-size: 1.5rem;
+		}
+
+		&.arabic {
+			font-family: 'Noto Sans Arabic', sans-serif;
+		}
+		&.japanese {
+			font-family: 'Noto Sans JP', sans-serif;
+		}
+		&.korean {
+			font-family: 'Noto Sans KR', sans-serif;
+		}
+		&.sindarin {
+			font-family: tengwar
+		}
+	}
+
+	p.subheader {
+		font-size: 6rem;
+		margin-block-start: 0;
+	}
+
+	button {
+		width: 50%;
+		font-size: 2rem;
+		font-family: font1;
+		padding: 1rem 0;
+	}
+}
