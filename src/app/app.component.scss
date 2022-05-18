@@ -12,6 +12,13 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	font-family: font1;
+	font-size: 1rem;
 	margin-left: 3rem;
 	margin-right: 3rem;
+	align-items: center;
+
+	img {
+		width: 28px;
+		height: 28px;
+	}
 }

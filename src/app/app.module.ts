@@ -10,7 +10,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { IndexComponent } from './modules/routes/index/components/index/index.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
-	return new TranslateHttpLoader(http);
+	return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({
